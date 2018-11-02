@@ -1,2 +1,2 @@
 # cogs120
-COGS120 project 
+COGS120 project
