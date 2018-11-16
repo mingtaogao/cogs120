@@ -8,9 +8,9 @@ $(document).ready(function() {
  */
 
 function initializePage() {
-	document.getElementById("tutURL").setAttribute("href",'arms.html');
 
 	$("#testjs1.1").click(function(e) {
+		alert('yo')
 		document.getElementById("tutURL").setAttribute("href",'chest.html');
 	});
 
