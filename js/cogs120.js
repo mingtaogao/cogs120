@@ -8,18 +8,18 @@ $(document).ready(function() {
  */
 
 function initializePage() {
-	$("#tutURL").text('arms.html');
+	document.getElementById("tutURL").setAttribute("href",'arms.html');
 
 	$("#testjs1.1").click(function(e) {
-		$("#tutURL").text('chest.html');
+		document.getElementById("tutURL").setAttribute("href",'chest.html');
 	});
 
 	$("#testjs1.2").click(function(e) {
-		$("#tutURL").text('core.html');
+		document.getElementById("tutURL").setAttribute("href",'core.html');
 	});
 
 	$("#testjs1.3").click(function(e) {
-		$("#tutURL").text('legs.html');
+		document.getElementById("tutURL").setAttribute("href",'legs.html');
 	});
 
 	// Add any additional listeners here
