@@ -6,9 +6,20 @@ $(document).ready(function() {
 /*
  * Function that is called when the document is ready.
  */
+
 function initializePage() {
+	$("#tutURL").text('arms.html');
+
 	$("#testjs1.1").click(function(e) {
-		$('.jumbotron h1').text("Javascript is connected");
+		$("#tutURL").text('chest.html');
+	});
+
+	$("#testjs1.2").click(function(e) {
+		$("#tutURL").text('core.html');
+	});
+
+	$("#testjs1.3").click(function(e) {
+		$("#tutURL").text('legs.html');
 	});
 
 	// Add any additional listeners here
