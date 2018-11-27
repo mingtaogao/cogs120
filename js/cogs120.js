@@ -25,3 +25,15 @@ function initializePage() {
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
 }
+
+function collectCheckboxes() {
+	var selected = [];
+	$('#checkboxes input:checked').each(function() {
+    	selected.push($(this).attr('name'));
+	});
+	localStorage.setItem("selected", selected);
+}
+
+$("#tutURL").click(function(e) {
+	collectCheckboxes();
+});
